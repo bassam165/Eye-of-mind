@@ -7,7 +7,6 @@ import { IF, URL } from "../url"
 import { UserContext } from "../context/UserContext"
 import { useNavigate, useParams } from "react-router-dom"
 
-
 const Profile = () => {
   const param=useParams().id
   const [username,setUsername]=useState("")
